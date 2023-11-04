@@ -1,11 +1,12 @@
 import './App.css'
+import Main from './Components/Main/Main'
 
 function App() {
 
   return (
-    <>
-    <h1></h1>
-    </>
+    <div>
+      <Main/>
+    </div>
   )
 }
 
