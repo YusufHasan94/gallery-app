@@ -15,7 +15,8 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "react-grid-layout": "^1.4.2",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "react-loader-spinner": "^5.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
