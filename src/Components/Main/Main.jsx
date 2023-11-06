@@ -55,6 +55,7 @@ const Main = () => {
                     setSelectedImages={setSelectedImages}
                     handleDelete={handleDelete}
                 />
+                <hr className='my-5' />
                 {
                     loader ?
                         <div className='flex justify-center items-center py-10'>
