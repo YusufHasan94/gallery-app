@@ -2,7 +2,7 @@ import React from 'react';
 
 const GalleryHeader = ({selectedImages, setSelectedImages, handleDelete}) => {
     return (
-        <div className='md:flex justify-between'>
+        <div className='flex flex-col md:flex-row gap-5 justify-between'>
             <div className='md:flex gap-5'>
                 {
                     selectedImages.length === 0 ?

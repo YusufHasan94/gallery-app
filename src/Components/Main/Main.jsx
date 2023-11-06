@@ -48,7 +48,7 @@ const Main = () => {
     }, [])
 
     return (
-        <div className='py-20 max-w-screen-xl mx-auto '>
+        <div className='py-20 max-w-screen-xl md:mx-auto '>
             <div className='bg-slate-50 mt-10 p-10 rounded-xl'>
                 <GalleryHeader
                     selectedImages={selectedImages}

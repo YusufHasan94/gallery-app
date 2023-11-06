@@ -3,7 +3,7 @@ import { FaImage } from "react-icons/fa6";
 
 const ImageUpload = ({ handleNewFile }) => {
     return (
-        <div className='w-56 h-56 border-gray-300 border-2 border-dashed rounded-xl flex justify-center items-center'>
+        <div className='w-full md:w-56 h-56 border-gray-300 border-2 border-dashed rounded-xl flex justify-center items-center'>
             <div className=''>
                 <div className='flex flex-col justify-center items-center'>
                     <FaImage className='text-2xl' />
